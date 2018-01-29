@@ -1,0 +1,10 @@
+﻿  ConsoleApplication1.cpp
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(109): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(114): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(117): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(152): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(178): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(217): warning C4018: <: несоответствие типов со знаком и без знака
+d:\3 курс\1 семестр\паралельное\mpi\consoleapplication1\consoleapplication1\consoleapplication1.cpp(226): warning C4018: <: несоответствие типов со знаком и без знака
+  ConsoleApplication1.vcxproj -> D:\3 КУРС\1 СЕМЕСТР\Паралельное\MPI\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> D:\3 КУРС\1 СЕМЕСТР\Паралельное\MPI\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

@@ -1,0 +1,39 @@
+﻿  LabWIN.cpp
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(12): error C2065: DWORD: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(12): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "TidA"
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(12): error C2065: TidA: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(12): error C2065: TidB: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(12): error C2065: TidC: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(13): error C2065: HANDLE: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(13): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "thread1"
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(13): error C2065: thread1: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(13): error C2065: thread2: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(13): error C2065: thread3: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(14): error C2065: thread1: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(14): error C2065: LPTHREAD_START_ROUTINE: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(14): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "TF1"
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(15): error C2065: thread2: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(15): error C2065: LPTHREAD_START_ROUTINE: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(15): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "TF2"
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(16): error C2065: thread3: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(16): error C2065: LPTHREAD_START_ROUTINE: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(16): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "TF3"
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(17): error C2065: thread1: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(17): error C2065: THREAD_PRIORITY_HIGHEST: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(17): error C3861: SetThreadPriority: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(18): error C2065: thread2: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(18): error C2065: THREAD_PRIORITY_NORMAL: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(18): error C3861: SetThreadPriority: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(19): error C2065: thread3: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(19): error C2065: THREAD_PRIORITY_LOWEST: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(19): error C3861: SetThreadPriority: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(20): error C2065: thread1: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(20): error C3861: CloseHandle: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(21): error C2065: thread2: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(21): error C3861: CloseHandle: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(22): error C2065: thread3: необъявленный идентификатор
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(22): error C3861: CloseHandle: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(23): error C3861: system: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(191): error C3861: Sleep: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(214): error C3861: Sleep: идентификатор не найден
+d:\3 курс\1 семестр\паралельное\win32\labwin\labwin\labwin.cpp(238): error C3861: Sleep: идентификатор не найден

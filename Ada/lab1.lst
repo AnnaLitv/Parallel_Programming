@@ -1,0 +1,60 @@
+GNAT GPL 2017 (20170515-63)
+Copyright 1992-2017, Free Software Foundation, Inc.
+
+Compiling: lab1.adb
+Source file time stamp: 2017-09-16 08:40:10
+Compiled at: 2017-09-17 21:52:48
+
+     1. with Ada.Text_IO; 
+     2. use Ada.Text_IO;
+     3. with Data;
+     4. with Ada.Integer_Text_IO; 
+     5. use Ada.Integer_Text_IO;
+     6.
+     7. with System;
+     8.  procedure Lab_1 is
+                   |
+        >>> warning: file name does not match unit name, should be "lab_1.adb"
+
+     9.  
+    10.  N: constant Integer := 2000;
+    11.  package ConcreteData is new Data(N);
+    12. 	use ConcreteData;
+    13. -----------------------------------
+    14. 		task Fun1 with CPU=>0 is
+    15. 			pragma Priority(1);
+    16. 			pragma Storage_Size(900_000_000);
+    17. 		end Fun1;
+    18.
+    19. 		task Fun2 with CPU=>1 is
+    20. 			pragma Priority(1);
+    21. 			pragma Storage_Size(900_000_000);
+    22. 		end Fun2;
+    23.
+    24. 		task Fun3 with CPU=>2 is
+    25. 			pragma Priority(1);
+    26. 			pragma Storage_Size(100_000_000);
+    27. 		end Fun3;
+    28.  ---------------------------
+    29.  task body Fun1  is
+    30.
+    31. 	begin
+    32. 	Func1;
+    33.  end Fun1;
+    34.  ---------------------------
+    35.  task body Fun2 is
+    36.  begin
+    37.  Func2;
+    38.  end Fun2;
+    39.  ---------------------------
+    40.  task body Fun3 is
+    41.  begin
+    42. -- null;
+    43.  Func3;
+    44.  end Fun3;
+    45.  ---------------------------
+    46.  begin
+    47.  Put_Line("Hello!");
+    48.  end Lab_1;
+
+ 48 lines: No errors, 1 warning

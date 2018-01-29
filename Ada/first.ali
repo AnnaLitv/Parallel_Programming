@@ -1,0 +1,225 @@
+V "GNAT Lib v2017"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U first_ada%b		first.adb		b34f0466 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170516105950 76789da1 ada%s
+D a-calend.ads		20170516105954 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20170516105948 9f20b83d ada.calendar.delays%s
+D a-except.ads		20170516105952 291912d5 ada.exceptions%s
+D a-inteio.ads		20170516105954 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105948 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20170516105950 a87e2da7 ada.real_time%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105954 d3a89129 ada.tags%s
+D a-textio.ads		20170516105954 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D first.adb		20170908211700 7d697816 first_ada%b
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-c.ads		20170516105948 5421119b interfaces.c%s
+D i-cstrin.ads		20170516105952 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D system.ads		20170516105954 32a08138 system%s
+D s-atacco.ads		20170516105954 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-multip.ads		20170516105948 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20170516105954 2e5b26a9 system.os_interface%s
+D s-parame.ads		20170516105954 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105950 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105954 a37c21ec system.stack_checking%s
+D s-stausa.ads		20170516105954 017a0a05 system.stack_usage%s
+D s-stalib.ads		20170516105954 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20170516105952 601f6b72 system.task_info%s
+D s-taspri.ads		20170516105952 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20170516105950 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170516105956 05d6152c system.tasking%s
+D s-tassta.ads		20170516105952 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105952 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+D s-win32.ads		20170516105948 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 2r5 3r6 4r5
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|3w10 4r9
+X 10 a-textio.ads
+49K13*Text_IO 471e16 13|1w10 2r9
+263U14*Put_Line 13|35s13 37s25 39s25 46s25 50s25 52s25 63s25 67s25 69s25
+. 79s25 103s25 108s25 117s25 122s25 134s25 135s25 167s13 168s25 170s25 172s25
+. 181s25 183s25 185s25 194s25 196s25 198s25 203s33 208s25 218s25 223s25 233s25
+. 238s25 252s25 257s25 266s25 271s25 274s25 303s13 304s25 306s25 310s25 314s25
+. 316s25 325s25 327s25 329s25 338s25 358s25 363s1
+X 11 a-tiinio.ads
+56U14*Get 13|38s25[5|18] 41s33[5|18] 48s33[5|18] 54s33[5|18] 71s33[5|18]
+. 169s25[5|18] 174s33[5|18] 187s33[5|18] 200s33[5|18] 305s25[5|18] 308s25[5|18]
+. 312s25[5|18] 318s25[5|18] 331s25[5|18]
+66U14*Put 13|61s33[5|18] 77s33[5|18] 106s33[5|18] 120s33[5|18] 132s25[5|18]
+. 179s33[5|18] 192s33[5|18] 206s33[5|18] 221s33[5|18] 236s33[5|18] 255s33[5|18]
+. 269s33[5|18] 323s25[5|18] 336s25[5|18] 355s27[5|18]
+X 13 first.adb
+7U11*First_Ada 7b11 365l5 365t14
+10t10 F1 12b15 137l9 137t11
+13i9 N{integer} 38m29 40r40 47r40 51r40 53r41 59r40 60r41 68r40 70r41 75r40
+. 76r41 84r39 90r39 94r37 95r45 97r61 104r40 105r41 111r38 112r38 118r40
+. 119r41 125r37 126r37 131r37
+13i12 MIN{integer} 83m25 85r28 86m25 91r44
+14A14 A(integer)<integer> 30r21
+15A14 B(integer)<integer> 31r21
+16A14 C(integer)<integer> 32r21
+17I17 ind{integer} 18r29 18r34 19r29 19r34 24r29 24r34 25r29 25r34
+18A15 MA(integer)<integer><integer> 21r17
+19A15 MD(integer)<integer><integer> 22r17
+21a9 MA_V{18A15} 54m37 54r37 61r37 98r70
+22a9 MD_V{19A15} 71m37 71r37 77r37 98r80 113r54
+24A15 FI(integer)<integer><integer> 27r17
+25A15 SE(integer)<integer><integer> 28r17
+27a9 FI_V{24A15} 96m49 98m49 98r60 106r37 113m33 113r44 120r37 127r40
+28a9 SE_V{25A15}
+30a9 A_V{14A14} 127m25 127r33 132r29
+31a9 B_V{15A14} 41m37 41r37 91m25 91r35 127r50
+32a9 C_V{16A14} 48m37 48r37 83r30 85r32 86r30
+40i30 ind{integer} 41r41
+47i30 ind{integer} 48r41
+51i30 ind{integer} 54r42
+53i30 indx{integer} 54r46
+59i30 ind{integer} 61r42
+60i30 indx{integer} 61r46
+68i30 ind{integer} 71r42
+70i30 indx{integer} 71r46
+75i30 ind{integer} 77r42
+76i30 indx{integer} 77r46
+84i29 ind{integer} 85r36 86r34
+90i29 ind{integer} 91r29 91r39
+94i29 i{integer} 96r54 98r54 98r65 98r75
+95i37 j{integer} 96r57 98r56 98r67 98r87
+97i53 k{integer} 98r77 98r85
+104i30 ind{integer} 106r42
+105i30 indx{integer} 106r46
+111i30 i{integer} 113r38 113r49 113r59
+112i30 j{integer} 113r40 113r51 113r61
+118i30 ind{integer} 120r42
+119i30 indx{integer} 120r46
+125i29 i{integer} 127r29 127r37 127r45
+126i29 j{integer} 127r47 127r54
+131i29 i{integer} 132r33
+140t10 F2 142b15 275l9 275t11
+143i9 N{integer} 169m29 171r40 173r41 177r40 178r41 184r40 186r41 190r40
+. 191r41 197r40 199r41 204r40 205r41 211r37 212r45 213r61 219r40 220r41 226r37
+. 227r45 228r61 234r40 235r41 243r37 244r37 253r40 254r41 260r38 261r38 267r40
+. 268r41
+143i12 T{integer}
+144I17 ind{integer} 145r29 145r34 146r29 146r34 147r29 147r34 148r29 148r34
+. 155r29 155r34 156r29 156r34 157r29 157r34 158r29 158r34
+145A15 MA(integer)<integer><integer> 150r17
+146A15 MD(integer)<integer><integer> 151r17
+147A15 MZ(integer)<integer><integer> 152r17
+148A15 MB(integer)<integer><integer> 153r17
+150a9 MA_V{145A15} 174m37 174r37 179r37 214r70 214r80
+151a9 MD_V{146A15} 214m49 214r60 221r37 229r70
+152a9 MZ_V{147A15} 187m37 187r37 192r37 229r80
+153a9 MB_V{148A15} 200m37 200r37 206r37 246r36 247r36
+155A15 FI(integer)<integer><integer> 161r17
+156A15 SE(integer)<integer><integer> 162r17
+157A15 TH(integer)<integer><integer> 163r17
+158A15 MK(integer)<integer><integer> 160r17
+160a9 MK_V{158A15} 262m33 269r37
+161a9 FI_V{155A15} 229m49 229r60 236r37 262r54
+162a9 SE_V{156A15}
+163a9 TH_V{157A15} 246m25 247m25 255r37 262r44
+171i30 ind{integer} 174r42
+173i30 indx{integer} 174r46
+177i30 ind{integer} 179r42
+178i30 indx{integer} 179r46
+184i30 ind{integer} 187r42
+186i30 indx{integer} 187r46
+190i30 ind{integer} 192r42
+191i30 indx{integer} 192r46
+197i30 ind{integer} 200r42
+199i30 indx{integer} 200r46
+204i30 ind{integer} 206r42
+205i30 indx{integer} 206r46
+211i29 i{integer} 214r54 214r65 214r75
+212i37 j{integer} 214r56 214r67 214r87
+213i53 k{integer} 214r77 214r85
+219i30 ind{integer} 221r42
+220i30 indx{integer} 221r46
+226i29 i{integer} 229r54 229r65 229r75
+227i37 j{integer} 229r56 229r67 229r87
+228i53 k{integer} 229r77 229r85
+234i30 ind{integer} 236r42
+235i30 indx{integer} 236r46
+243i29 i{integer} 246r30 246r43 247r32 247r41
+244i29 j{integer} 246r32 246r41 247r30 247r43
+253i30 ind{integer} 255r42
+254i30 indx{integer} 255r46
+260i30 i{integer} 262r38 262r49 262r59
+261i30 j{integer} 262r40 262r51 262r61
+267i30 ind{integer} 269r42
+268i30 indx{integer} 269r46
+278t14 F3 280b15 360l9 360t11
+281i9 N{integer} 305m29 307r40 311r40 315r40 317r41 321r40 322r41 328r40
+. 330r41 334r40 335r41 341r37 345r37 346r39 354r39
+281i12 BUF{integer} 348m25 350r33
+282A14 R(integer)<integer> 298r21
+283A14 S(integer)<integer> 299r21
+284A14 O(integer)<integer> 300r21
+285I17 ind{integer} 286r29 286r34 287r29 287r34 292r29 292r34 293r29 293r34
+286A15 MT(integer)<integer><integer> 289r17
+287A15 MP(integer)<integer><integer> 290r17
+289a9 MT_V{286A15} 318m29 318r29 323r29
+290a9 MP_V{287A15} 331m29 331r29 336r29
+292A15 FI(integer)<integer><integer> 295r17
+293A15 SE(integer)<integer><integer> 296r17
+295a9 FI_V{292A15}
+296a9 SE_V{293A15}
+298a9 R_V{282A14} 308m29 308r29 342m25 342r33 347r28 347r35 348r30 349m25
+. 349r33 350m25 355r31
+299a9 S_V{283A14} 312m29 312r29 342r40
+300a9 O_V{284A14}
+307i30 ind{integer} 308r33
+311i30 ind{integer} 312r33
+315i30 ind{integer} 318r34
+317i30 indx{integer} 318r38
+321i30 ind{integer} 323r34
+322i30 indx{integer} 323r38
+328i30 ind{integer} 331r34
+330i30 indx{integer} 331r38
+334i30 ind{integer} 336r34
+335i30 indx{integer} 336r38
+341i29 i{integer} 342r29 342r37 342r44
+345i29 i{integer} 346r34 347r32 348r34 349r29
+346i29 j{integer} 347r39 349r37 350r29
+354i31 i{integer} 355r35
+X 28 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

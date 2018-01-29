@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  mpi2.cpp
+  Создание кода...
+mpi2.obj : error LNK2019: ссылка на неразрешенный внешний символ _MPI_Comm_size@8 в функции _main
+mpi2.obj : error LNK2019: ссылка на неразрешенный внешний символ _MPI_Comm_rank@8 в функции _main
+mpi2.obj : error LNK2019: ссылка на неразрешенный внешний символ _MPI_Init@8 в функции _main
+mpi2.obj : error LNK2019: ссылка на неразрешенный внешний символ _MPI_Finalize@0 в функции _main
+D:\3 КУРС\1 СЕМЕСТР\Паралельное\MPI\mpi2\Debug\mpi2.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
